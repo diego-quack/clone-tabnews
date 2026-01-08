@@ -1,0 +1,24 @@
+* Host localhost:3000 was resolved.
+* IPv6: ::1
+* IPv4: 127.0.0.1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*   Trying [::1]:3000...
+* Connected to localhost (::1) port 3000
+> GET /api/status HTTP/1.1
+> Host: localhost:3000
+> User-Agent: curl/8.5.0
+> Accept: */*
+> 
+< HTTP/1.1 200 OK
+< Content-Type: application/json; charset=utf-8
+< ETag: "6v5itz4ixfp"
+< Content-Length: 25
+< Vary: Accept-Encoding
+< Date: Tue, 06 Jan 2026 22:34:36 GMT
+< Connection: keep-alive
+< Keep-Alive: timeout=5
+< 
+{ [25 bytes data]
+100    25  100    25    0     0   1573      0 --:--:-- --:--:-- --:--:--  1785
+* Connection #0 to host localhost left intact
